@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-root",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix my-portfolio\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.1.14"
+  }
+}
